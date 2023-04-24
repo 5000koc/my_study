@@ -269,7 +269,7 @@ def print_stars(n):
 print_stars(4)
 
 i = 0
-while i < n:
+while i < 0:
     j = 0
     while j < i+1:
         print("*", end="")
