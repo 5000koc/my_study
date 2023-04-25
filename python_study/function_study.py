@@ -56,7 +56,7 @@ def 함수이름(함수입력값):
     return 함수 결과값
 """
 # def 함수를 정의하는 명령어
-# 함수 이름을 만등 때도 변수 이름처럼 영어, 숫자, _만 사용
+# 함수 이름을 만들 때도 변수 이름처럼 영어, 숫자, _만 사용
 # 숫자, 띄워쓰기, 기본명령어 사용하면 안됨
 # def print_names():
 #     print("손흥민")
@@ -163,6 +163,7 @@ def 함수이름(함수입력값):
 #     return n1
 
 # 키워드 매개변수
+# * 하나로 입력할 경우는 tuple로 사용
 # **kwargs <- 이렇게 씀 Keyward arguments의 줄임말
 # 딕셔너리로 사용 변수의 입력이 유동적일 때 사용
 # def print_kwargs(**kwargs):
@@ -268,11 +269,12 @@ def print_stars(n):
 
 print_stars(4)
 
-i = 0
-while i < 0:
-    j = 0
-    while j < i+1:
-        print("*", end="")
-        j += 1
-        print()
-        i += 1
+# i = 0
+# while i < 0:
+#     j = 0
+#     while j < i+1:
+#         print("*", end="")
+#         j += 1
+#         print()
+#         i += 1
+
