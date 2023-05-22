@@ -78,6 +78,7 @@
 # 약수 : 나누었을 때 나머지가 0으로 떨지게 하는 수
 
 n = int(input("정수 :"))
+
 # for i in range(1, n + 1):
 #     if n % i == 0:
 #         print(i)  
